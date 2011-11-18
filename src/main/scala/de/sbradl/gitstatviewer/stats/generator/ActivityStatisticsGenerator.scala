@@ -3,16 +3,14 @@
  * and open the template in the editor.
  */
 
-package de.madsolutions.stats.generator
+package de.sbradl.gitstatviewer.stats.generator
 
-import de.madsolutions.gitstatviewer.Commit
-import de.madsolutions.gitstatviewer.Log
-import de.madsolutions.util.DateHelper
 import java.util.Calendar
 import java.util.GregorianCalendar
 import scala.collection.SortedMap
 import scala.xml.Elem
-import de.madsolutions.util.Cache
+import de.sbradl.gitstatviewer.Log
+import de.sbradl.gitstatviewer.util.Cache
 
 class ActivityStatisticsGenerator extends StatGenerator {
 

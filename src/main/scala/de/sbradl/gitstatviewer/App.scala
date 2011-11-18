@@ -3,16 +3,15 @@
  * and open the template in the editor.
  */
 
-package de.madsolutions.gitstatviewer
+package de.sbradl.gitstatviewer
 
 import scala.xml.XML
 import scala.util.logging.ConsoleLogger
-import de.madsolutions.stats.generator.StatGenerator
-import de.madsolutions.reports.generator.ActivityReport
-import de.madsolutions.reports.generator.AuthorReport
-import de.madsolutions.reports.generator.GeneralReport
-import de.madsolutions.util.Cache
 import scala.xml.PrettyPrinter
+import de.sbradl.gitstatviewer.util.Cache
+import de.sbradl.gitstatviewer.reports.generator.GeneralReport
+import de.sbradl.gitstatviewer.reports.generator.AuthorReport
+import de.sbradl.gitstatviewer.reports.generator.ActivityReport
 
 object GitStatViewer extends App with ConsoleLogger {
   

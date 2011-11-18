@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package de.madsolutions.gitstatviewer
+package de.sbradl.gitstatviewer
 
 import scala.collection.mutable.ListBuffer
 

@@ -3,9 +3,8 @@
  * and open the template in the editor.
  */
 
-package de.madsolutions.gitstatviewer
+package de.sbradl.gitstatviewer
 
-import de.madsolutions.reports.generator.ReportGenerator
 import scala.xml.Elem
 import scala.xml.XML
 import scala.xml.EntityRef
@@ -14,6 +13,7 @@ import scala.xml.dtd.SystemID
 import org.fusesource.scalate._
 import java.io.File
 import javax.imageio.ImageIO
+import de.sbradl.gitstatviewer.reports.generator.ReportGenerator
 
 class LogVisualizer(stats: Elem) {
 

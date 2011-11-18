@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package de.madsolutions.reports.generator
+package de.sbradl.gitstatviewer.reports.generator
 
 import scala.xml.Elem
 import scala.xml.Node

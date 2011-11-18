@@ -1,9 +1,10 @@
-package de.madsolutions.util
+package de.sbradl.gitstatviewer.util
+
 import scala.collection.mutable.HashMap
 import scala.xml.Node
-import de.madsolutions.gitstatviewer.Commit
-import de.madsolutions.gitstatviewer.Log
 import java.util.Date
+import de.sbradl.gitstatviewer.Commit
+import de.sbradl.gitstatviewer.Log
 
 object Cache {
 
@@ -59,7 +60,7 @@ object Cache {
         }
     }.map {
       (kv: (Int, List[Commit])) =>
-        kv._2.firstOption match {
+        kv._2.headOption match {
           case Some(commit) => (DateHelper.format(commit.date), kv._2.length)
           case None => (null, kv._2.length)
         }

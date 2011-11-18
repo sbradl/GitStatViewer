@@ -3,11 +3,11 @@
  * and open the template in the editor.
  */
 
-package de.madsolutions.gitstatviewer
+package de.sbradl.gitstatviewer
 
-import de.madsolutions.util.DateHelper
 import java.text.SimpleDateFormat
 import scala.util.logging.Logged
+import de.sbradl.gitstatviewer.util.DateHelper
 
 class LogExtractor extends Logged {
   

@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package de.madsolutions.reports.generator
+package de.sbradl.gitstatviewer.reports.generator
 
 import java.io.File
 import org.jfree.chart.ChartFactory
@@ -13,7 +13,7 @@ import org.jfree.data.category._
 import org.jfree.chart.plot.PlotOrientation
 import scala.xml.Elem
 import scala.xml.Node
-import de.madsolutions.util.Chart
+import de.sbradl.gitstatviewer.util.Chart
 
 class AuthorReport extends ReportGenerator {
 

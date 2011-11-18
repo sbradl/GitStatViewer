@@ -3,16 +3,12 @@
  * and open the template in the editor.
  */
 
-package de.madsolutions.gitstatviewer
+package de.sbradl.gitstatviewer
 
-import de.madsolutions.stats.generator.ActivityStatisticsGenerator
-import de.madsolutions.stats.generator.AuthorActivityStatisticsGenerator
-import de.madsolutions.stats.generator.AuthorStatisticsGenerator
-import de.madsolutions.stats.generator.GeneralStatisticsGenerator
-import de.madsolutions.stats.generator.StatGenerator
 import scala.collection.SortedSet
 import scala.xml.Elem
 import scala.xml.XML
+import de.sbradl.gitstatviewer.stats.generator._
 
 class LogAnalyzer {
   

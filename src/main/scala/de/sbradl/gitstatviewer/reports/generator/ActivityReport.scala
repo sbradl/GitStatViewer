@@ -3,18 +3,18 @@
  * and open the template in the editor.
  */
 
-package de.madsolutions.reports.generator
+package de.sbradl.gitstatviewer.reports.generator
 
 import scala.xml.Elem
 import scala.xml.Node
 import org.jfree.data.category._
 import org.jfree.data.time._
 import org.jfree.chart.ChartFactory
-import de.madsolutions.util.Chart
 import org.jfree.chart.plot.PlotOrientation
 import java.text.SimpleDateFormat
 import java.util.Date
-import de.madsolutions.util.DateHelper
+import de.sbradl.gitstatviewer.util.DateHelper
+import de.sbradl.gitstatviewer.util.Chart
 
 class ActivityReport extends ReportGenerator {
 

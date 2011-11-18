@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package de.madsolutions.util
+package de.sbradl.gitstatviewer.util
 
 import java.util.Date
 import java.util.GregorianCalendar

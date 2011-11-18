@@ -3,18 +3,18 @@
  * and open the template in the editor.
  */
 
-package de.madsolutions.stats.generator
+package de.sbradl.gitstatviewer.stats.generator
 
-import de.madsolutions.gitstatviewer.Commit
-import de.madsolutions.gitstatviewer.Log
-import de.madsolutions.util.DateHelper
 import java.text.SimpleDateFormat
 import java.util.Calendar
 import java.util.Date
 import java.util.GregorianCalendar
 import scala.collection.mutable.HashMap
 import scala.xml.Elem
-import de.madsolutions.util.Cache
+import de.sbradl.gitstatviewer.Log
+import de.sbradl.gitstatviewer.util.Cache
+import de.sbradl.gitstatviewer.Commit
+import de.sbradl.gitstatviewer.util.DateHelper
 
 // TODO: cumulated added lines per author
 // TODO: cumulated deleted lines per author
